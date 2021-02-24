@@ -1,0 +1,14 @@
+$mint: #07fdd8;
+$card: #252525;
+$background: #1d1d1d;
+$red: #FD2155;
+$navBackground: #171717;
+
+.container {
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 100px;
+}

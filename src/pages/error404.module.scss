@@ -1,0 +1,15 @@
+$mint: #07fdd8;
+$red: #ca1942;
+$background: #1d1d1d;
+
+.container {
+    height: 100vh;
+    background-color: $background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 200px;
+    }
+}

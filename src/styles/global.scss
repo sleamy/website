@@ -1,0 +1,39 @@
+$mint: #07fdd8;
+$background: #1d1d1d;
+$red: #ca1942;
+
+body {
+    margin: 0;    
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 72px;
+    color: $mint;
+    font-weight: 700;
+    margin: 0;
+}
+
+h3 {
+    font-size: 52px;
+    font-weight: 100;
+    color: white;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+h6 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 100;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}

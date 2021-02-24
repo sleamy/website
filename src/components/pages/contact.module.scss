@@ -1,0 +1,12 @@
+$mint: #07fdd8;
+$background: #202020;
+$red: #FD2155;
+
+.container {
+    height: 100vh;
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

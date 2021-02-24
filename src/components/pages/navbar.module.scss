@@ -1,0 +1,37 @@
+$mint: #07fdd8;
+$navBackground: #171717;
+
+.container {
+    background-color: $navBackground;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+    }
+
+    li {
+        display: inline;
+        color: white;
+        font-size: 20px;
+    }
+
+    li:hover {    
+        color: $mint;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
