@@ -18,6 +18,7 @@
     "@fontsource/roboto": "^4.2.1",
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^2.26.1",
+    "gatsby-cli": "^2.19.1",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sass": "^3.2.0",
     "react": "^16.12.0",
