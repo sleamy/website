@@ -40,6 +40,7 @@ $red: #FD2155;
         font-size: 16px;
         color: #cccccc;            
         font-family: "Roboto", Arial, Helvetica, sans-serif;
+        box-shadow: 10px 10px 10px $navBackground;
     }
 
     input:focus, textarea:focus {

@@ -5,6 +5,7 @@ import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn"
 import { FaFile } from "@react-icons/all-files/fa/FaFile"
 import { FaCaretDown } from "@react-icons/all-files/fa/FaCaretDown"
 import Resume from "../../../static/documents/SeanLeamy_CV_2018.pdf"
+import { Link, animateScroll as scroll } from "react-scroll"
 
 export default function Main() {
     return (
@@ -27,7 +28,7 @@ export default function Main() {
                     </li></a>
                 </ul>
             </div>
-            <a href="#about" className={mainCSS.button}><FaCaretDown aria-label="scroll to next section"></FaCaretDown></a>
+            <Link to="about" smooth duration={500} className={mainCSS.button}><FaCaretDown aria-label="scroll to next section"></FaCaretDown></Link>
         </div>
     )
 }
