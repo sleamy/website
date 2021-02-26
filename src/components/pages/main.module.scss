@@ -33,7 +33,15 @@ $background: #1d1d1d;
     padding-top: 30px;
     flex: 1 1 auto;    
 
+    a, li {
+        color: white;
+    }
+
     a:visited {
+        color: white;
+    }
+
+    li:visited {
         color: white;
     }
 }
