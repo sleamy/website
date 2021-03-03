@@ -12,23 +12,11 @@ $red: #FD2155;
     justify-content: center;
     align-items: center;
 }
-
-.board {
-    
-    display: flex;
-    flex-direction: column;
-    background-color: $board;
-    padding: 50px;
-    border-radius: 10px;
-    width: 600px;
-    box-shadow: 10px 10px 10px $navBackground;
-}
-
 .form {
     display: flex;
     flex-direction: column;
     width: 600px;
-    padding: 20px;
+    max-width: 100%;
 
     input, textarea{
         background-color: #2B2B2B;
@@ -61,7 +49,6 @@ $red: #FD2155;
     }
 
     input[type=submit]:hover {
-        border-radius: 5px;
         cursor: pointer;
         background-color: $mint;
         color: $board;
@@ -70,10 +57,5 @@ $red: #FD2155;
 
 .upper {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.message {
-    line-height: 10;
+    justify-content: space-evenly;
 }

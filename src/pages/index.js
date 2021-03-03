@@ -9,9 +9,12 @@ import { Helmet } from "react-helmet"
 export default function Home() {
   return (
     <div>
-      <Helmet>
+      <Helmet htmlAttributes={{
+        lang: 'en',
+      }}>
         <meta charSet="utf-8" />\
         <meta name="description" content="Sean Leamy's portfolio website" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <title>Sean Leamy</title>
       </Helmet>
       <Navbar></Navbar>

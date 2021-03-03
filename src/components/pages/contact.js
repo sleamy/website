@@ -8,12 +8,12 @@ export default function Contact() {
             <p></p>
             <form className={contactCSS.form}>
                 <div className={contactCSS.upper}>
-                    <input type="text" name="name" placeholder="Name"/>
-                    <input type="email" name="email" placeholder="Email"/>
+                    <label for="name"></label><input type="text" name="name" placeholder="Name"/>
+                    <label for="email"></label><input type="email" name="email" placeholder="Email"/>
                 </div>
-                <input type="text" name="subject" placeholder="Subject"/>
+                <label for="subject"></label><input type="text" name="subject" placeholder="Subject"/>
                 <textarea rows="10" placeholder="Message"></textarea>
-                <input type="submit" text="Send"/>         
+                <label for="submit"></label><input type="submit" name="submit" text="Send"/>         
             </form>
         </div>
     )

@@ -13,7 +13,8 @@ $navBackground: #171717;
     border-radius: 10px;
     padding: 40px;
     margin-bottom: 50px;
-    box-shadow: 10px 10px 10px rgb(20, 20, 20);    
+    box-shadow: 10px 10px 10px rgb(20, 20, 20);
+    max-width: 80%;
 }
 
 .projectInfo {
@@ -40,9 +41,9 @@ $navBackground: #171717;
     
     img {
         border-radius: 10px;
-        max-width: 500px;
+        max-width: 100%;
+        min-width: 200px;
         max-height: 300px;
-        margin-right: -100px;
         box-shadow: 10px 10px 10px rgb(10, 10, 10);
         object-fit: cover;
     }
