@@ -10,10 +10,10 @@ class Navbar extends Component {
         return (
             <div className={navbarCSS.container}>
                 <ul>
-                <Link to="home" smooth duration={500}><li>Home</li></Link>
-                <Link to="about" smooth duration={500}><li>About</li></Link>
-                <Link to="projects" smooth duration={500}><li>Projects</li></Link>
-                <Link to="contact" smooth duration={500}><li>Contact</li></Link>
+                <li><Link to="home" smooth duration={500}>Home</Link></li>
+                <li><Link to="about" smooth duration={500}>About</Link></li>
+                <li><Link to="projects" smooth duration={500}>Projects</Link></li>
+                <li><Link to="contact" smooth duration={500}>Contact</Link></li>
                 </ul>
             </div>
         )
