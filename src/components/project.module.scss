@@ -83,3 +83,43 @@ $navBackground: #171717;
         margin-right: 30px;
     }
 }
+
+// 481px — 768px: iPads, Tablets
+@media (max-width: 768px) {
+    .projectContainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        padding: 20px;
+    }    
+
+    .projectImage {
+        margin: 40px 0 0 0;
+        
+        img {
+            border-radius: 10px;
+            max-width: 100%;
+            min-width: 100px;
+            max-height: 300px;
+            box-shadow: 10px 10px 10px rgb(10, 10, 10);
+            object-fit: cover;
+        }
+    }
+}
+// 320px — 480px: Mobile devices
+@media (max-width: 480px) {
+
+    .projectImage {
+        margin: 40px 0 0 0;
+        
+        img {
+            border-radius: 10px;
+            max-width: 100%;
+            min-width: 100px;
+            max-height: 300px;
+            box-shadow: 10px 10px 10px rgb(10, 10, 10);
+            object-fit: cover;
+        }
+    }
+}

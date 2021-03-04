@@ -5,7 +5,9 @@ $navBackground: #171717;
 $red: #FD2155;
 
 .container {
-    height: 100vh;
+    height: calc(100vh - 60px);
+    min-height: 100vh;
+    max-width: 100%;
     background-color: $background;
     display: flex;
     flex-direction: column;
@@ -58,4 +60,36 @@ $red: #FD2155;
 .upper {
     display: flex;
     justify-content: space-evenly;
+    
+    input {
+        width: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .container {
+        padding-top: 30px;
+    }
+    
+    .form {
+
+        input, textarea {
+            font-size: 16px;
+            padding: 10px;
+            margin: 10px 20px;
+        }
+
+        .upper {
+            margin: 0 0 0 20px; 
+
+            input {
+                margin-left: 0;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 40px;
+    }
 }

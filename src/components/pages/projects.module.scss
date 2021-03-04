@@ -13,3 +13,19 @@ $navBackground: #171717;
     padding-top: 100px;
     padding-bottom: 30px;
 }
+// 769px — 1024px: Small screens, laptops
+@media (max-width: 1024px) {
+    .content {
+        border: 1px solid yellowgreen;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+// 320px — 480px: Mobile devices
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding-top: 60px;
+    }
+}

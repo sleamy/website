@@ -4,6 +4,8 @@ $background: #1d1d1d;
 
 .container {
     height: 100vh;
+    min-height: 100vh;
+    width: 100%;
     background-color: $background;
     color: white;
     display: flex;
@@ -83,4 +85,39 @@ $background: #1d1d1d;
 .button:active {
     background-color: $background;
     color: $mint;
+}
+
+// 481px — 768px: iPads, Tablets
+@media (max-width: 768px) {
+    .container {
+
+        ul {
+            max-width: 100%;
+        }
+    }
+
+    .content {
+        max-width: 100%;
+    }
+}
+// 320px — 480px: Mobile devices
+@media (max-width: 480px) {
+    .container {
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+
+        h6 {
+            font-size: 16px;
+        }
+    }
+
+    .icon {
+        font-size: 30px;
+    }
 }
