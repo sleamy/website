@@ -6,5 +6,18 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-react-helmet`],
+  siteMetadata: {
+    siteUrl: `https://www.sleamy.dev`,
+  },
+  plugins: [
+    `gatsby-plugin-sass`, 
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-advanced-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }
+  ],
 }
