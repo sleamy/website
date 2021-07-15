@@ -19,7 +19,9 @@ export default function About() {
             <div className={aboutCSS.content}>
                 <div className={aboutCSS.info}>
                     <h1>About Me</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur dui mauris. Curabitur placerat odio eget maximus malesuada. Phasellus efficitur lacus leo, non iaculis velit ullamcorper quis. Fusce euismod velit tortor, vitae mollis turpis malesuada at. Curabitur dignissim mauris sed orci fermentum bibendum. Aliquam blandit eu elit sit amet posuere. Vestibulum interdum, lectus quis vehicula efficitur, orci dui placerat mauris, nec tempor sem metus eu massa. Maecenas ornare magna nisl, vitae convallis nunc vulputate eget. Etiam vitae accumsan arcu, non pretium arcu.</p>
+                    <p>I am a recent IT Graduate currently looking for work as a software developer. I have experience
+                    working with both front-end and back-end technologies, have great time management skills and am able to
+                    work effectively in a team or alone. I am interested in all areas of software development and enjoy working on my own projects in my spare time.</p>
                 </div>
                 <div className={aboutCSS.skills}>
                     <Skill name="HTML" icon={htmlIcon} ></Skill>

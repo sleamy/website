@@ -15,12 +15,14 @@
 @media (min-width: 1201px) {
     .iconContainer {
        max-width: 25%;
+       height: 125px;
     }
 }
 
 @media (max-width: 1200px) {
     .iconContainer {
         width: 30%;
+        height: 90px;
     }
 }
 
