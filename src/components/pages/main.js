@@ -4,7 +4,7 @@ import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn"
 import { FaFile } from "@react-icons/all-files/fa/FaFile"
 import { FaCaretDown } from "@react-icons/all-files/fa/FaCaretDown"
-import Resume from "../../../static/documents/SeanLeamy_CV_2018.pdf"
+import Resume from "../../../static/documents/SeanLeamy_CV_2021.pdf"
 import { Link, animateScroll as scroll } from "react-scroll"
 
 export default function Main() {
