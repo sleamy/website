@@ -8,6 +8,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     siteUrl: `https://www.sleamy.dev`,
+    
   },
   plugins: [
     {
